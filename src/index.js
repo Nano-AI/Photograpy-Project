@@ -6,6 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
+import Diagram from "./Diagram";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,8 @@ ReactDOM.render(
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={App} />
+        <Route exact path="/home" component={App} />
+        <Route exact path="/diagram" component={Diagram} />
         <Route component={App} />
       </Switch>
     </BrowserRouter>

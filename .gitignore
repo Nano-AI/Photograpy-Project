@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# need this to depoly to GitHub pages
+# /build
 
 # misc
 .DS_Store
