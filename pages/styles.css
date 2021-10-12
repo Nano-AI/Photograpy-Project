@@ -20,3 +20,8 @@
 #iso-background {
   background-image: url("../img/iso_jumbo.jpg");
 }
+
+#working-background {
+  color: white;
+  background-image: url("../img/working_background.png");
+}
