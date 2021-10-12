@@ -15,7 +15,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="diagram.css" />
 
     <title>Photography Project</title>
   </head>
@@ -37,10 +37,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="./">Home</a>
+            <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/diagram.html">Diagram of a DSLR</a>
+            <a class="nav-link" href="#">Diagram of a DSLR</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -73,54 +73,34 @@
         </ul>
       </div>
     </nav>
-
+    
     <div class="jumbotron rounded-0 text-white" id="jumbotron-background">
-      <h1>How to use a camera</h1>
-      <p>The basics of how to use a camera.</p>
+      <h1>Diagram of a DSLR</h1>
+      <p>A diagram of a DSLR camera along with the parts.</p>
     </div>
 
     <div class="container">
-      <h1>Welcome!</h1>
-        <p>
-          Welcome to my guide! Feel free to go around the page using the
-          navigation bar at the top!
-        </p>
-        <h2>What is this?</h2>
-        <p>
-          This is supposed to be a guide for people learning how to use a
-          camera, this will teach you the basics of it.
-        </p>
-        <h2>Recommended Order</h2>
-        <ol>
-          <li>
-            <a>Diagram of a DSLR</a>
-          </li>
-          <li>
-            <a>Amazing Aperture</a>
-            <ol>
-              <li>
-                <a>What is it?</a>
-              </li>
-              <li>
-                <a>F-Stop</a>
-              </li>
-              <li>
-                <a>Depth of Field</a>
-              </li>
-            </ol>
-          </li>
-          <li>
-            <a>Super Shutter Speed</a>
-          </li>
-          <li>
-            <a>Incredible ISO</a>
-          </li>
-          <li>
-            <a>Working Together</a>
-          </li>
-        </ol>
+      <h1>The Diagram</h1>
+      <img src="../img/diagram.jpg">
+      <h2>View Finder</h2>
+      <div class="row">
+        <div class="col">
+          <p class="float-left col-8 p-0">The viewfinder is a eye piece on a camera that you hold your eye close to, and allows you to see what's going to be photogrpahed before you take it.</p>
+          <img src="../img/viewfinder.jpg" class="float-right img-thumbnail col-4">
+        </div>
+      </div>
+      <h2>Sensor</h2>
+      <div class="row">
+        <div class="col">
+          <img src="../img/sensor.jpg" class="float-left img-thumbnail col-4">
+          <p class="float-right col-8">The sensor of a camera reads the light and produces an image out of it. Without this, a camera would be useless because... well... a camera takes photos.</p>
+        </div>
+      </div>
+      <h2>Mirror</h2>
+      <h2>Shutter Release</h2>
+      <h2>Flash</h2>
+      <h2>Lense</h2>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -131,5 +111,6 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="diagram.js"></script>
   </body>
 </html>
