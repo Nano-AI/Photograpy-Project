@@ -15,7 +15,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="diagram.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Photography Project</title>
   </head>
@@ -36,70 +36,103 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Diagram of a DSLR</a>
+            <a class="nav-link active" href="#">Diagram of a DSLR</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Amazing Aperature
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">What is it?</a>
-              <a class="dropdown-item" href="#">F-Stop</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Depth of Field</a>
-            </div>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Super Shutter Speed</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Incredible ISO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Working Together</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aperature.html">Amazing Aperature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Super Shutter Speed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Incredible ISO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Working Together</a>
           </li>
         </ul>
       </div>
     </nav>
-    
-    <div class="jumbotron rounded-0 text-white" id="jumbotron-background">
+
+    <div
+      class="jumbotron rounded-0 jumbotron-background text-white"
+      id="diagram-backgorund"
+    >
       <h1>Diagram of a DSLR</h1>
       <p>A diagram of a DSLR camera along with the parts.</p>
     </div>
 
     <div class="container">
       <h1>The Diagram</h1>
-      <img src="../img/diagram.jpg">
+      <img src="../img/diagram.jpg" />
       <h2>View Finder</h2>
       <div class="row">
         <div class="col">
-          <p class="float-left col-8 p-0">The viewfinder is a eye piece on a camera that you hold your eye close to, and allows you to see what's going to be photogrpahed before you take it.</p>
-          <img src="../img/viewfinder.jpg" class="float-right img-thumbnail col-4">
+          <p class="float-left col-8 p-0">
+            The viewfinder is a eye piece on a camera that you hold your eye
+            close to, and allows you to see what's going to be photogrpahed
+            before you take it.
+          </p>
+          <img
+            src="../img/viewfinder.jpg"
+            class="float-right img-thumbnail col-4"
+          />
         </div>
       </div>
       <h2>Sensor</h2>
       <div class="row">
         <div class="col">
-          <img src="../img/sensor.jpg" class="float-left img-thumbnail col-4">
-          <p class="float-right col-8">The sensor of a camera reads the light and produces an image out of it. Without this, a camera would be useless because... well... a camera takes photos.</p>
+          <img src="../img/sensor.jpg" class="float-left img-thumbnail col-4" />
+          <p class="float-right col-8">
+            The sensor of a camera reads the light and produces an image out of
+            it. Without this, a camera would be useless because... well... a
+            camera takes photos. It captures the light and turns it into signals
+            which rseults in an image.
+          </p>
         </div>
       </div>
       <h2>Mirror</h2>
+      <div class="row">
+        <div class="col">
+          <p class="float-left col-8 p-0">
+            The mirror in a DSLR camera reflects the light from the lens into
+            the viewfinder, which allows you to lioik through it and frame a
+            shot.
+          </p>
+          <img
+            src="../img/mirror.jpg"
+            class="float-right img-thumbnail col-4"
+          />
+        </div>
+      </div>
       <h2>Shutter Release</h2>
+      <p>
+        The shutter release opens the shutter to capture a picture. In that time
+        period, the camera reads the light and converts it into an image. You
+        can change the shutter speed on a DSLR camera to what ever you want.
+        Pressing the button down half way will auto focus the camera.
+      </p>
       <h2>Flash</h2>
-      <h2>Lense</h2>
+      <div class="row">
+        <div class="col">
+          <p class="float-left col-8 p-0">
+            This is the built on flash on the camera. You <b>DO NOT</b> want to
+            use it, because it's a small portion of light on a subject which
+            usually ends up giving you terrible images. Professional
+            photographers use something like a softbox to add a lot of light and
+            put it smoothly across a surface.
+          </p>
+          <img
+            src="../img/flash.jpg"
+            alt=""
+            class="float-right img-thumbnail col-4"
+          />
+        </div>
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

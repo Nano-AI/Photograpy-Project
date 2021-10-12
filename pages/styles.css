@@ -1,0 +1,18 @@
+.jumbotron-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+#aperture-background {
+  background-image: url("../img/aperture.jpg");
+}
+
+#diagram-backgorund {
+  background-image: url("../img/diagram.jpg");
+}
+
+#shutter-background {
+  background-image: url("../img/shutter_jumbo.jpg");
+  color: rgb(225, 225, 225);
+}
